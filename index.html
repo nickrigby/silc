@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./build/index.css"/>
+    </head>
+    <body>
+
+        <h1>silk</h1>
+
+        <h2>Grid</h2>
+        <div class="silk-grid">
+            <div class="col-large-6">6</div>
+            <div class="col-large-6">6</div>
+        </div>
+
+        <div class="silk-grid">
+            <div class="col-large-4">4</div>
+            <div class="col-large-4">4</div>
+            <div class="col-large-4">4</div>
+        </div>
+
+        <h2>Accordions</h2>
+        <h3>Standard</h3>
+        <div class="silk-accordion">
+            <section class="silk-accordion__section">
+                <header class="silk-accordion__header">
+                    <h2 class="silk-accordion__label">Accordion 1</h2>
+                </header>
+                <div class="silk-accordion__content">
+                    <p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                </div>
+            </section>
+            <section class="silk-accordion__section">
+                <header class="silk-accordion__header">
+                    <h2 class="silk-accordion__label">Accordion 2</h2>
+                </header>
+                <div class="silk-accordion__content">
+                    <p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                </div>
+            </section>
+        </div>
+
+        <h3>Become Tabs</h3>
+        <div class="silk-accordion silk-accordion--become-tabs">
+            <nav class="silk-accordion__nav">
+                <ul class="silk-accordion__nav-items">
+                    <li class="silk-silk-accordion__nav-item"><a class="silk-silk-accordion__nav-link" href="#silk-accordion-1-1">Tab 1</a></li>
+                    <li class="silk-silk-accordion__nav-item"><a class="silk-silk-accordion__nav-link" href="#silk-accordion-1-2">Tab 2</a></li>
+                </ul>
+            </nav>
+            <section class="silk-accordion__section" id="silk-accordion-1-1">
+                <header class="silk-accordion__header">
+                    <h2 class="silk-accordion__label">Tab 1</h2>
+                </header>
+                <div class="silk-accordion__content">
+                    <p>Tab 1 content.</p>
+                </div>
+            </section>
+            <section class="silk-accordion__section" id="silk-accordion-1-2">
+                <header class="silk-accordion__header">
+                    <h2 class="silk-accordion__label">Tab 2</h2>
+                </header>
+                <div class="silk-accordion__content">
+                    <p>Tab 2 content.</p>
+                </div>
+            </section>
+        </div>
+
+        <h3>Tabs</h3>
+        <div class="silk-accordion silk-accordion--tabs">
+            <nav class="silk-accordion__nav">
+                <ul class="silk-accordion__nav-items">
+                    <li class="silk-silk-accordion__nav-item"><a class="silk-silk-accordion__nav-link" href="#silk-accordion-2-1">Tab 1</a></li>
+                    <li class="silk-silk-accordion__nav-item"><a class="silk-silk-accordion__nav-link" href="#silk-accordion-2-2">Tab 2</a></li>
+                </ul>
+            </nav>
+            <section class="silk-accordion__section" id="silk-accordion-2-1">
+                <header class="silk-accordion__header">
+                    <h2 class="silk-accordion__label">Tab 1</h2>
+                </header>
+                <div class="silk-accordion__content">
+                    <p>Tab 1 content.</p>
+                </div>
+            </section>
+            <section class="silk-accordion__section" id="silk-accordion-2-2">
+                <header class="silk-accordion__header">
+                    <h2 class="silk-accordion__label">Tab 2</h2>
+                </header>
+                <div class="silk-accordion__content">
+                    <p>Tab 2 content.</p>
+                </div>
+            </section>
+        </div>
+
+        <h2>Nav</h2>
+        <nav class="silk-nav">
+            <ul class="silk-nav__items">
+                <li class="silk-nav__item">
+                    <a class="silk-nav__link" href="#">Front-end Development</a>
+                    <ul class="silk-nav__items">
+                        <li class="silk-nav__item">
+                            <a class="silk-nav__link" href="#">CSS</a>
+                            <ul class="silk-nav__items">
+                                <li class="silk-nav__item"><a class="silk-nav__link" href="#">SASS</a></li>
+                                <li class="silk-nav__item"><a class="silk-nav__link" href="#">LESS</a></li>
+                                <li class="silk-nav__item">
+                                    <a class="silk-nav__link" href="#">PostCSS</a>
+                                    <ul class="silk-nav__items">
+                                        <li class="silk-nav__item"><a class="silk-nav__link" href="#">Post 1</a></li>
+                                        <li class="silk-nav__item"><a class="silk-nav__link" href="#">Post 2</a></li>
+                                        <li class="silk-nav__item"><a class="silk-nav__link" href="#">Post 3</a></li>
+                                    </ul>     
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="silk-nav__item">
+                            <a class="silk-nav__link" href="#">JavaScript</a>
+                            <ul class="silk-nav__items">
+                                <li class="silk-nav__item"><a class="silk-nav__link" href="#">TypeScript</a></li>
+                                <li class="silk-nav__item">
+                                    <a class="silk-nav__link" href="#">Babel</a>
+                                    <ul class="silk-nav__items">
+                                        <li class="silk-nav__item">
+                                            <a class="silk-nav__link" href="#">Babel 1</a>
+                                            <ul class="silk-nav__items">
+                                                <li class="silk-nav__item"><a class="silk-nav__link" href="#">Babel 1.1</a></li>
+                                                <li class="silk-nav__item"><a class="silk-nav__link" href="#">Babel 2.1</a></li>
+                                                <li class="silk-nav__item"><a class="silk-nav__link" href="#">Babel 3.1</a></li>
+                                            </ul>  
+                                        </li>
+                                        <li class="silk-nav__item"><a class="silk-nav__link" href="#">Babel 2</a></li>
+                                        <li class="silk-nav__item"><a class="silk-nav__link" href="#">Babel 3</a></li>
+                                    </ul>     
+                                </li>
+                                <li class="silk-nav__item"><a class="silk-nav__link" href="#">CoffeeScript</a></li>
+                            </ul> 
+                        </li>
+                    </ul>
+                </li>
+                <li class="silk-nav__item">
+                    <a class="silk-nav__link" href="#">Back-end Development</a>
+                    <ul class="silk-nav__items">
+                        <li class="silk-nav__item">
+                            <a class="silk-nav__link" href="#">PHP</a>
+                            <ul class="silk-nav__items">
+                                <li class="silk-nav__item"><a class="silk-nav__link" href="#">WordPress</a></li>
+                                <li class="silk-nav__item"><a class="silk-nav__link" href="#">Laravel</a></li>
+                                <li class="silk-nav__item"><a class="silk-nav__link" href="#">Drupal</a></li>
+                            </ul>
+                        </li>
+                        <li class="silk-nav__item">
+                            <a class="silk-nav__link" href="#">Ruby</a>
+                            <ul class="silk-nav__items">
+                                <li class="silk-nav__item"><a class="silk-nav__link" href="#">Something</a></li>
+                                <li class="silk-nav__item"><a class="silk-nav__link" href="#">Something else</a></li>
+                                <li class="silk-nav__item"><a class="silk-nav__link" href="#">Another thing</a></li>
+                            </ul> 
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <script src="./build/bundle.js"></script>
+
+    </body>
+</html>

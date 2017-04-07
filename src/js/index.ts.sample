@@ -1,0 +1,19 @@
+/*
+ * CSS
+ * 
+ */
+import "../scss/index.scss";
+
+/*
+ * JS
+ */
+import { SilkAccordion } from "silk-accordion";
+import { SilkNav } from "silk-nav";
+
+[].forEach.call(document.querySelectorAll('.silk-accordion'), (el) => {
+    new SilkAccordion(el);
+});
+
+[].forEach.call(document.querySelectorAll('.silk-nav'), (el) => {
+    new SilkNav(el);
+});

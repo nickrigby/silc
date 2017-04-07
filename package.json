@@ -1,0 +1,31 @@
+{
+  "name": "silk",
+  "version": "0.0.1",
+  "description": "silk framework for developers",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack-dev-server --open",
+    "build": "webpack -p"
+  },
+  "author": {
+    "name": "Nick Rigby",
+    "email": "nick.rigby@gmail.com",
+    "url": "https://nickrigby.uk"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "node-sass": "^4.5.2",
+    "normalize-css": "^2.3.1",
+    "sass-loader": "^6.0.3",
+    "silk-accordion": "nickrigby/silk-accordion",
+    "silk-core": "nickrigby/silk-core",
+    "silk-grid": "nickrigby/silk-grid",
+    "style-loader": "^0.16.1",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
