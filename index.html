@@ -14,14 +14,21 @@
 
         <h2>Grid</h2>
         <div class="silk-grid">
-            <div class="col-large-6">6</div>
-            <div class="col-large-6">6</div>
+            <div class="silk-grid__col silk-grid__col--large-6">6</div>
+            <div class="silk-grid__col silk-grid__col--large-6">6</div>
         </div>
 
         <div class="silk-grid">
-            <div class="col-large-4">4</div>
-            <div class="col-large-4">4</div>
-            <div class="col-large-4">4</div>
+            <div class="silk-grid__col silk-grid__col--large-4">4</div>
+            <div class="silk-grid__col silk-grid__col--large-4">4</div>
+            <div class="silk-grid__col silk-grid__col--large-4">4</div>
+        </div>
+
+        <div class="silk-grid">
+            <div class="silk-grid__col silk-grid__col--medium-6 silk-grid__col--large-3">3</div>
+            <div class="silk-grid__col silk-grid__col--medium-6 silk-grid__col--large-3">3</div>
+            <div class="silk-grid__col silk-grid__col--medium-6 silk-grid__col--large-3">3</div>
+            <div class="silk-grid__col silk-grid__col--medium-6 silk-grid__col--large-3">3</div>
         </div>
 
         <h2>Accordions</h2>
@@ -165,6 +172,13 @@
                 </li>
             </ul>
         </nav>
+
+        <h2>Off Canvas</h2>
+        <a class="silk-offcanvas__trigger" href="#silk-offcanvas-1">Trigger Offcanvas</a>
+        <div class="silk-offcanvas" id="silk-offcanvas-1">
+            <a class="silk-offcanvas__trigger silk-offcanvas__trigger--close" href="#silk-offcanvas-1">Close</a>
+            <p>This is off canvas</p>
+        </div>
 
         <script src="./build/bundle.js"></script>
 
