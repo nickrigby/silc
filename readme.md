@@ -1,5 +1,5 @@
 # silk
-Silk is a super lightweight and customizable collection of HTML components for web developers. Unlike other frameworks, Silk is intentionally barebones, focusing on functionality over uneccessary styles that you end up needing to overriding later. Silk features purposeful and semantic HTML, minimal "vanilla" JavaScript, and SASS variables for customizing look and feel. Silk currently includes the following modules:
+Silk is a super lightweight and customizable collection of HTML components for web developers. Unlike other frameworks, Silk is intentionally barebones, focusing on functionality over uneccessary styles that you end up overriding later. Silk features purposeful and semantic HTML, minimal "vanilla" JavaScript, and SASS variables for easily customizing design. Silk currently includes the following modules:
 
  - [silk core](https://github.com/nickrigby/silk-core)
  - [silk grid](https://github.com/nickrigby/silk-grid)
