@@ -21,7 +21,7 @@ Copy the [index.ts.sample file](src/js/index.ts.sample) found in `src/js` to `sr
 ## Running the local dev server
 The local development server — using [Webpack 2](webpack.js.org) — can be started with:
 
-`npm serve` or `yarn serve`
+`npm run serve` or `yarn serve`
 
 ## Overriding styles
 Each silk module contains a number of default SASS variables that can be easily overridden by adding the variable to the [_overrides.scss file](src/scss/silk/_overrides.scss). For example, to add your own breakpoints, you would create the following variable in the overrides file:
@@ -38,4 +38,4 @@ $silk-core--breakpoints (
 ## Building for production
 To build your code for production, run the following:
 
-`npm build` or  `yarn build`
+`npm run build` or  `yarn build`
