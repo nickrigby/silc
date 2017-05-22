@@ -2682,8 +2682,8 @@ signal-exit@^3.0.0:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
 silk-accordion@nickrigby/silk-accordion:
-  version "0.3.1"
-  resolved "https://codeload.github.com/nickrigby/silk-accordion/tar.gz/a260f3e8f9d60bdde5dc9ab05eb9103e71b057df"
+  version "0.5.0"
+  resolved "https://codeload.github.com/nickrigby/silk-accordion/tar.gz/2d9a2b2b954b41cbe914fab58cf6c6afa53450e2"
 
 silk-core@nickrigby/silk-core:
   version "0.1.2"
