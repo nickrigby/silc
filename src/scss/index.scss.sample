@@ -1,8 +1,8 @@
 @import "~normalize.css";
 
-@import "silk/overrides";
+@import "silc/overrides";
 
-@import "~silk-core/src/scss/index";
-@import "~silk-grid/src/scss/index";
-@import "~silk-accordion/src/scss/index";
-@import "~silk-nav/src/scss/index";
+@import "~silc-core/src/scss/index";
+@import "~silc-grid/src/scss/index";
+@import "~silc-accordion/src/scss/index";
+@import "~silc-nav/src/scss/index";

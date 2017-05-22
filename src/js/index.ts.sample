@@ -7,13 +7,13 @@ import "../scss/index.scss";
 /*
  * JS
  */
-import { SilkAccordion } from "silk-accordion";
-import { SilkNav } from "silk-nav";
+import { SilcAccordion } from "silc-accordion";
+import { SilcNav } from "silc-nav";
 
-[].forEach.call(document.querySelectorAll('.silk-accordion'), (el) => {
-    new SilkAccordion(el);
+[].forEach.call(document.querySelectorAll('.silc-accordion'), (el) => {
+    new SilcAccordion(el);
 });
 
-[].forEach.call(document.querySelectorAll('.silk-nav'), (el) => {
-    new SilkNav(el);
+[].forEach.call(document.querySelectorAll('.silc-nav'), (el) => {
+    new SilcNav(el);
 });
