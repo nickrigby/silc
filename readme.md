@@ -1,5 +1,5 @@
 # silc
-silc is a __S__imple __I__ntuitive __L__ibrary of __C__components for web developers. Unlike other "frameworks", silc is intentionally barebones, focusing on functionality over uneccessary styles that you end up overriding later. silc features purposeful and semantic HTML, minimal "vanilla" JavaScript, and SASS variables for easily customizing design. silc currently includes the following modules:
+silc is a Simple Intuitive Library of Components for web developers. Unlike other "frameworks", silc is intentionally barebones, focusing on functionality over uneccessary styles that you end up overriding later. silc features purposeful and semantic HTML, minimal "vanilla" JavaScript, and SASS variables for easily customizing design. silc currently includes the following modules:
 
  - [silc core](https://github.com/nickrigby/silc-core)
  - [silc grid](https://github.com/nickrigby/silc-grid)
