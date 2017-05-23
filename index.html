@@ -14,8 +14,12 @@
 
         <h2>Grid</h2>
         <div class="silc-grid">
-            <div class="silc-grid__col silc-grid__col--large-6">6</div>
-            <div class="silc-grid__col silc-grid__col--large-6">6</div>
+            <div class="silc-grid__col silc-grid__col--large-3">
+                <div class="panel">3</div>
+            </div>
+            <div class="silc-grid__col silc-grid__col--large-3">
+                <div class="panel">3</div>
+            </div>
         </div>
 
         <div class="silc-grid">
@@ -32,14 +36,17 @@
         </div>
 
         <h2>Accordions</h2>
-        <h3>Standard</h3>
-        <div class="silc-accordion">
+        <h3>Basic</h3>
+        <div class="silc-accordion" id="accordion-0">
             <section class="silc-accordion__section">
                 <header class="silc-accordion__header">
                     <h2 class="silc-accordion__label">Accordion 1</h2>
                 </header>
                 <div class="silc-accordion__content">
-                    <p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                    <p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                        justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Vivamus sagittis
+                        lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Nullam quis risus eget urna
+                        mollis ornare vel eu leo.</p>
                 </div>
             </section>
             <section class="silc-accordion__section">
@@ -47,20 +54,75 @@
                     <h2 class="silc-accordion__label">Accordion 2</h2>
                 </header>
                 <div class="silc-accordion__content">
-                    <p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+                    <p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                        justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Vivamus sagittis
+                        lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Nullam quis risus eget urna
+                        mollis ornare vel eu leo.</p>
                 </div>
             </section>
         </div>
 
-        <h3>Become Tabs</h3>
-        <div class="silc-accordion silc-accordion--become-tabs">
+        <h3>First item open</h3>
+        <div class="silc-accordion" id="accordion-1" data-silc-accordion-open-first>
+            <section class="silc-accordion__section">
+                <header class="silc-accordion__header">
+                    <h2 class="silc-accordion__label">Accordion 1</h2>
+                </header>
+                <div class="silc-accordion__content">
+                    <p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                        justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Vivamus sagittis
+                        lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Nullam quis risus eget urna
+                        mollis ornare vel eu leo.</p>
+                </div>
+            </section>
+            <section class="silc-accordion__section">
+                <header class="silc-accordion__header">
+                    <h2 class="silc-accordion__label">Accordion 2</h2>
+                </header>
+                <div class="silc-accordion__content">
+                    <p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                        justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Vivamus sagittis
+                        lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Nullam quis risus eget urna
+                        mollis ornare vel eu leo.</p>
+                </div>
+            </section>
+        </div>
+
+        <h3>Open multiple</h3>
+        <div class="silc-accordion" id="accordion-2" data-silc-accordion-open-multiple>
+            <section class="silc-accordion__section">
+                <header class="silc-accordion__header">
+                    <h2 class="silc-accordion__label">Accordion 1</h2>
+                </header>
+                <div class="silc-accordion__content">
+                    <p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                        justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Vivamus sagittis
+                        lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Nullam quis risus eget urna
+                        mollis ornare vel eu leo.</p>
+                </div>
+            </section>
+            <section class="silc-accordion__section">
+                <header class="silc-accordion__header">
+                    <h2 class="silc-accordion__label">Accordion 2</h2>
+                </header>
+                <div class="silc-accordion__content">
+                    <p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                        justo odio, dapibus ac facilisis in, egestas eget quam. Curabitur blandit tempus porttitor. Vivamus sagittis
+                        lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui. Nullam quis risus eget urna
+                        mollis ornare vel eu leo.</p>
+                </div>
+            </section>
+        </div>
+
+        <h3>Accordion that becomes tabs</h3>
+        <div class="silc-accordion silc-accordion--become-tabs" id="accordion-3">
             <nav class="silc-accordion__nav">
                 <ul class="silc-accordion__nav-items">
-                    <li class="silc-silc-accordion__nav-item"><a class="silc-silc-accordion__nav-link" href="#silc-accordion-1-1">Tab 1</a></li>
-                    <li class="silc-silc-accordion__nav-item"><a class="silc-silc-accordion__nav-link" href="#silc-accordion-1-2">Tab 2</a></li>
+                    <li class="silc-accordion__nav-item"><a class="silc-accordion__nav-link" href="#silc-accordion-3-1">Tab 1</a></li>
+                    <li class="silc-accordion__nav-item"><a class="silc-accordion__nav-link" href="#silc-accordion-3-2">Tab 2</a></li>
                 </ul>
             </nav>
-            <section class="silc-accordion__section" id="silc-accordion-1-1">
+            <section class="silc-accordion__section" id="silc-accordion-3-1">
                 <header class="silc-accordion__header">
                     <h2 class="silc-accordion__label">Tab 1</h2>
                 </header>
@@ -68,7 +130,7 @@
                     <p>Tab 1 content.</p>
                 </div>
             </section>
-            <section class="silc-accordion__section" id="silc-accordion-1-2">
+            <section class="silc-accordion__section" id="silc-accordion-3-2">
                 <header class="silc-accordion__header">
                     <h2 class="silc-accordion__label">Tab 2</h2>
                 </header>
@@ -79,14 +141,14 @@
         </div>
 
         <h3>Tabs</h3>
-        <div class="silc-accordion silc-accordion--tabs">
+        <div class="silc-accordion silc-accordion--tabs" id="accordion-4">
             <nav class="silc-accordion__nav">
                 <ul class="silc-accordion__nav-items">
-                    <li class="silc-silc-accordion__nav-item"><a class="silc-silc-accordion__nav-link" href="#silc-accordion-2-1">Tab 1</a></li>
-                    <li class="silc-silc-accordion__nav-item"><a class="silc-silc-accordion__nav-link" href="#silc-accordion-2-2">Tab 2</a></li>
+                    <li class="silc-accordion__nav-item"><a class="silc-accordion__nav-link" href="#silc-accordion-4-1">Tab 1</a></li>
+                    <li class="silc-accordion__nav-item"><a class="silc-accordion__nav-link" href="#silc-accordion-4-2">Tab 2</a></li>
                 </ul>
             </nav>
-            <section class="silc-accordion__section" id="silc-accordion-2-1">
+            <section class="silc-accordion__section" id="silc-accordion-4-1">
                 <header class="silc-accordion__header">
                     <h2 class="silc-accordion__label">Tab 1</h2>
                 </header>
@@ -94,7 +156,7 @@
                     <p>Tab 1 content.</p>
                 </div>
             </section>
-            <section class="silc-accordion__section" id="silc-accordion-2-2">
+            <section class="silc-accordion__section" id="silc-accordion-4-2">
                 <header class="silc-accordion__header">
                     <h2 class="silc-accordion__label">Tab 2</h2>
                 </header>
@@ -173,11 +235,20 @@
             </ul>
         </nav>
 
-        <h2>Off Canvas</h2>
+        <h2>Offcanvas</h2>
         <a class="silc-offcanvas__trigger" href="#silc-offcanvas-1">Trigger Offcanvas</a>
         <div class="silc-offcanvas" id="silc-offcanvas-1">
             <a class="silc-offcanvas__trigger silc-offcanvas__trigger--close" href="#silc-offcanvas-1">Close</a>
             <p>This is off canvas</p>
+        </div>
+
+        <h2>Offcanvas modal</h2>
+        <a class="silc-offcanvas__trigger silc-offcanvas__trigger--modal" href="#silc-offcanvas-2">Trigger Offcanvas modal</a>
+        <div class="silc-offcanvas silc-offcanvas--modal" id="silc-offcanvas-2">
+            <div class="silc-offcanvas__inner">
+                <a class="silc-offcanvas__trigger silc-offcanvas__trigger--modal" href="#silc-offcanvas-2">Close</a>
+                <p>This is modal content</p>
+            </div>
         </div>
 
         <script src="./build/bundle.js"></script>
