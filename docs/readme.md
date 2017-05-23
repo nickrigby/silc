@@ -1,4 +1,4 @@
-silc is a Simple Intuitive Library of Components for web developers. Unlike other "frameworks", silc is intentionally barebones, focusing on functionality over uneccessary styles that you end up overriding later. silc features purposeful and semantic HTML, minimal "vanilla" JavaScript, and SASS variables for easily customizing design. silc currently includes the following modules:
+Silc is a **S**imple, **I**ntuitive, **L**ibrary of **C**omponents for web developers. Unlike other "frameworks", silc is intentionally barebones, focusing on functionality over uneccessary styles that you end up overriding later. Silc features purposeful and semantic HTML, minimal "vanilla" JavaScript, and SASS variables for easy customization. Silc includes the following modules:
 
  - [silc core](https://github.com/nickrigby/silc-core)
  - [silc grid](https://github.com/nickrigby/silc-grid)
@@ -17,7 +17,7 @@ Copy the [index.scss.sample file](src/scss/index.scss.sample) found in `src/scss
 ### Creating a JavaScript entry file
 Copy the [index.ts.sample file](src/js/index.ts.sample) found in `src/js` to `src/js/index.ts`. This file controls the silc modules you want to include, as well as any other JavaScript files/code dependencies for your project.
 
-## Running the local dev server
+## Local dev server
 The local development server — using [Webpack 2](webpack.js.org) — can be started with:
 
 `npm run serve` or `yarn serve`
