@@ -1,11 +1,12 @@
 {
   "name": "silc",
-  "version": "0.1.0",
-  "description": "simple intutive library of components (silc) for developers",
+  "version": "0.1.1",
+  "description": "Simple, Intutive, Library of Components for Web Developers",
   "main": "index.js",
   "scripts": {
     "serve": "webpack-dev-server --open",
-    "build": "NODE_ENV=production webpack -p"
+    "build:staging": "NODE_ENV=staging webpack -p",
+    "build:production": "NODE_ENV=production webpack -p"
   },
   "author": {
     "name": "Nick Rigby",
