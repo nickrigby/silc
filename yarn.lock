@@ -2681,25 +2681,25 @@ signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
-silc-accordion@nickrigby/silc-accordion:
+silc-accordion@^0.5.1:
   version "0.5.1"
-  resolved "https://codeload.github.com/nickrigby/silc-accordion/tar.gz/a576da1f5fcbf52a9635a5707f36cfe1845a476d"
+  resolved "https://registry.yarnpkg.com/silc-accordion/-/silc-accordion-0.5.1.tgz#8b23b57e089f8eb7b52b95f0dbdcef3f05e9a522"
 
-silc-core@nickrigby/silc-core:
+silc-core@^0.2.0:
   version "0.2.0"
-  resolved "https://codeload.github.com/nickrigby/silc-core/tar.gz/a66d19ba66579b4e1a0342788aebd4cc74175687"
+  resolved "https://registry.yarnpkg.com/silc-core/-/silc-core-0.2.0.tgz#741f61fdeddb265fa5abe1e3578e97dcab10820b"
 
-silc-grid@nickrigby/silc-grid:
+silc-grid@^0.2.0:
   version "0.2.0"
-  resolved "https://codeload.github.com/nickrigby/silc-grid/tar.gz/fbb984555e252488b78fcbf32c4d933e96427e8d"
+  resolved "https://registry.yarnpkg.com/silc-grid/-/silc-grid-0.2.0.tgz#5935d7c84c7cb0343563485d15a996e23962175d"
 
-silc-nav@nickrigby/silc-nav:
-  version "0.1.2"
-  resolved "https://codeload.github.com/nickrigby/silc-nav/tar.gz/48272f31f0e7f9082e9518ada7910da499797833"
+silc-nav@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/silc-nav/-/silc-nav-0.2.0.tgz#8556769403f38a2a5e5a14ceeafc79cfe03666f6"
 
-silc-offcanvas@nickrigby/silc-offcanvas:
-  version "0.3.0"
-  resolved "https://codeload.github.com/nickrigby/silc-offcanvas/tar.gz/60a5ae2a4073cc648b744225721bee1fae873210"
+silc-offcanvas@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/silc-offcanvas/-/silc-offcanvas-0.3.1.tgz#82c999390a152a953ca9a47cac453866f23ecb96"
 
 sntp@1.x.x:
   version "1.0.9"
