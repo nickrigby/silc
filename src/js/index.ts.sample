@@ -9,6 +9,10 @@ import "../scss/index.scss";
  */
 import { SilcAccordion } from "silc-accordion";
 import { SilcNav } from "silc-nav";
+import { SilcOffcanvas } from "silc-offcanvas";
+import { SilcCore } from "silc-core";
+
+new SilcCore();
 
 [].forEach.call(document.querySelectorAll('.silc-accordion'), (el) => {
     new SilcAccordion(el);
@@ -16,4 +20,8 @@ import { SilcNav } from "silc-nav";
 
 [].forEach.call(document.querySelectorAll('.silc-nav'), (el) => {
     new SilcNav(el);
+});
+
+[].forEach.call(document.querySelectorAll('.silc-offcanvas__trigger'), (el) => {
+    new SilcOffcanvas(el);
 });
