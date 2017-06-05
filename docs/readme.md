@@ -5,6 +5,7 @@ Silc is a **S**imple, **I**ntuitive, **L**ibrary of **C**omponents for web devel
  - [silc accordion](https://github.com/nickrigby/silc-accordion)
  - [silc nav](https://github.com/nickrigby/silc-nav)
  - [silc offcanvas](https://github.com/nickrigby/silc-offcanvas)
+ - [silc utilities](https://github.com/nickrigby/silc-utilities)
 
 ## Installation
 After downloading silc, dependencies need to be installed with [yarn](https://yarnpkg.com/lang/en/docs/install/) or [node](https://docs.npmjs.com/getting-started/installing-node).
