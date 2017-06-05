@@ -7,3 +7,4 @@
 @import "~silc-accordion/src/scss/index";
 @import "~silc-nav/src/scss/index";
 @import "~silc-offcanvas/src/scss/index";
+@import "~silc-utilities/src/scss/index";
