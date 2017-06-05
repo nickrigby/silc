@@ -22,7 +22,7 @@
     "normalize.css": "^6.0.0",
     "sass-loader": "^6.0.3",
     "silc-accordion": "^0.5.1",
-    "silc-core": "^0.2.0",
+    "silc-core": "^0.3.0",
     "silc-grid": "^0.2.0",
     "silc-nav": "^0.2.0",
     "silc-offcanvas": "^0.3.1",

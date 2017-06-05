@@ -2685,9 +2685,9 @@ silc-accordion@^0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/silc-accordion/-/silc-accordion-0.5.1.tgz#8b23b57e089f8eb7b52b95f0dbdcef3f05e9a522"
 
-silc-core@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/silc-core/-/silc-core-0.2.0.tgz#741f61fdeddb265fa5abe1e3578e97dcab10820b"
+silc-core@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/silc-core/-/silc-core-0.3.0.tgz#b05a963f1b6925507cf867f9e0e7b1da25699de1"
 
 silc-grid@^0.2.0:
   version "0.2.0"
