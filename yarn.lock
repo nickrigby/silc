@@ -709,7 +709,7 @@ date-now@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/date-now/-/date-now-0.1.4.tgz#eaf439fd4d4848ad74e5cc7dbef200672b9e345b"
 
-debug@2.6.7:
+debug@2.6.7, debug@^2.2.0:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.7.tgz#92bad1f6d05bbb6bba22cca88bcd0ec894c2861e"
   dependencies:
@@ -721,7 +721,7 @@ debug@2.6.8, debug@^2.6.8:
   dependencies:
     ms "2.0.0"
 
-debug@^2.2.0, debug@~2.2.0:
+debug@~2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.2.0.tgz#f87057e995b1a1f6ae6a4960664137bc56f039da"
   dependencies:
@@ -2724,27 +2724,27 @@ signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
-silc-accordion@^0.5.1:
+silc-accordion@^0.5.6:
   version "0.5.6"
   resolved "https://registry.yarnpkg.com/silc-accordion/-/silc-accordion-0.5.6.tgz#f98527460d3d9cc1eb2a9c98ffde406a95d34680"
 
-silc-core@^0.3.0:
+silc-core@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/silc-core/-/silc-core-0.3.1.tgz#eaa5023554768d1be7f35a2fc746074cb2ae9d71"
 
-silc-grid@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/silc-grid/-/silc-grid-0.2.0.tgz#5935d7c84c7cb0343563485d15a996e23962175d"
+silc-grid@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/silc-grid/-/silc-grid-0.3.1.tgz#c8ced6344494f219311f15d2cbfce56d9eb3295f"
 
-silc-nav@^0.2.0:
+silc-nav@^0.2.1:
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/silc-nav/-/silc-nav-0.2.1.tgz#0dc226d67a4959cca9dc80e759ae5c2ddb27f1ac"
 
-silc-offcanvas@^0.3.1:
+silc-offcanvas@^0.3.2:
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/silc-offcanvas/-/silc-offcanvas-0.3.2.tgz#1564b1fce52a379f39287598fd8ea197a5fb06bd"
 
-silc-utilities@^0.1.0:
+silc-utilities@^0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/silc-utilities/-/silc-utilities-0.1.1.tgz#83980560f393a3f2443248c3246fcd78d3401758"
 
