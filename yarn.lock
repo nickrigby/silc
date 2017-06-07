@@ -2701,9 +2701,9 @@ silc-offcanvas@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/silc-offcanvas/-/silc-offcanvas-0.3.1.tgz#82c999390a152a953ca9a47cac453866f23ecb96"
 
-silc-utilities@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/silc-utilities/-/silc-utilities-0.0.1.tgz#83e82c33d68fefb477ca43d5ac7ad6b53b6225cb"
+silc-utilities@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/silc-utilities/-/silc-utilities-0.1.0.tgz#7b49331bf2c438c0ed891da67ddaa16afe2b615e"
 
 sntp@1.x.x:
   version "1.0.9"
