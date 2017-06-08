@@ -2724,9 +2724,9 @@ signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
-silc-accordion@^0.5.6:
-  version "0.5.6"
-  resolved "https://registry.yarnpkg.com/silc-accordion/-/silc-accordion-0.5.6.tgz#f98527460d3d9cc1eb2a9c98ffde406a95d34680"
+silc-accordion@^0.5.7:
+  version "0.5.7"
+  resolved "https://registry.yarnpkg.com/silc-accordion/-/silc-accordion-0.5.7.tgz#af37ca7f0b14e66f802108558fec3471f3619459"
 
 silc-core@^0.3.1:
   version "0.3.1"
