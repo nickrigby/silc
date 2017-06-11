@@ -21,11 +21,7 @@ const config = {
             {
                 test: /\.scss$/,
                 loader: extractSass.extract({
-                    use: [{
-                        loader: 'css-loader'
-                    }, {
-                        loader: 'sass-loader'
-                    }],
+                    use: ['css-loader', 'postcss-loader', 'sass-loader'],
                     fallback: 'style-loader'
                 })
             },
