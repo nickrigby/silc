@@ -1,3 +1,5 @@
+# silc
+
 Silc is a **S**imple, **I**ntuitive, **L**ibrary of **C**omponents for web developers. Unlike other "frameworks", silc is intentionally bare bones, focusing on functionality over uneccessary styles that you end up overriding later. Silc features purposeful and semantic HTML, minimal "vanilla" JavaScript, and SASS variables for easy customization. Silc includes the following modules:
 
  - [silc core](https://github.com/nickrigby/silc-core)
