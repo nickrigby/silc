@@ -3,7 +3,7 @@ Silc is a **S**imple, **I**ntuitive, **L**ibrary of **C**omponents for web devel
 ## Modules
 Silc contains a number of leightweight modules. Since silc modules are truly modular, any single silc module can be included in your own project using [npm](https://www.npmjs.com/).
 
-### Grid
+### Grid [![npm version](https://badge.fury.io/js/silc-grid.svg)](https://badge.fury.io/js/silc-grid)
 The grid module is a flexbox-based grid system, that allows you to create classes based on your own custom breakpoints.
 
 [Grid documentation](https://github.com/nickrigby/silc-grid) | [Grid NPM package](https://www.npmjs.com/package/silc-grid)
@@ -11,7 +11,7 @@ The grid module is a flexbox-based grid system, that allows you to create classe
 ### Accordion
 The accordion module has options for pure accordions, accordions that become tabs, and pure tabs.
 
-[Accordion documentation](https://github.com/nickrigby/silc-grid) | [Accordion NPM package](https://www.npmjs.com/package/silc-accordion)
+[Accordion documentation](https://github.com/nickrigby/silc-accordion) | [Accordion NPM package](https://www.npmjs.com/package/silc-accordion)
 
 ### Offcanvas
 The offcanvas module allows you to place content outside of the viewport, with the ability to trigger its visibility. The offcanvas module also has an option for basic modals.
