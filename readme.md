@@ -28,6 +28,31 @@ $silc-core--breakpoints (
     ('xl, '1400px')
 );
 ```
+## Extending classes
+Some silc modules contain JavaScript classes that can be easily extended for your own needs. To extend a class, you need to import the class and then remove the call to the original module init function e.g. `silcOffcanvasInit`
+
+```javascript
+import { SilcOffcanvas } from 'silc-offcanvas';
+class MyOffcanvas extends SilcOffcanvas {
+
+    constructor(el) {
+        super(el);
+    }
+
+    protected toggle(event) {
+        super.toggle(event); // Call parent toggle function
+        console.log('Toggle!'); // Your own functionality
+    }
+
+}
+```
+
+You can then write your own init function to apply your new class to the appropriate elements.
+```javascript
+[].forEach.call(document.querySelectorAll('.silc-offcanvas__trigger'), (el) => {
+    new MyOffcanvas(el);
+});
+```
 
 ## Building for production
 To build your code for production, run the following:
