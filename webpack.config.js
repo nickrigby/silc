@@ -42,7 +42,7 @@ const config = {
     ]
 };
 
-if(process.env.NODE_ENV !== 'production') {
+if(process.env.NODE_ENV === 'development') {
 
     config.devServer = {
         hot: true,

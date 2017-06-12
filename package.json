@@ -4,7 +4,8 @@
   "description": "Simple, Intutive, Library of Components for Web Developers",
   "main": "index.js",
   "scripts": {
-    "serve": "webpack-dev-server --open",
+    "serve": "NODE_ENV=development webpack-dev-server --open",
+    "watch": "webpack --watch",
     "build:staging": "NODE_ENV=staging webpack -p",
     "build:production": "NODE_ENV=production webpack -p"
   },
