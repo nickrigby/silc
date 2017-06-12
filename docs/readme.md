@@ -1,61 +1,39 @@
-Silc is a **S**imple, **I**ntuitive, **L**ibrary of **C**omponents for web developers. Unlike other "frameworks", silc is intentionally barebones, focusing on functionality over uneccessary styles that you end up overriding later. Silc features purposeful and semantic HTML, minimal "vanilla" JavaScript, and SASS variables for easy customization. Silc includes the following modules:
+Silc is a **S**imple, **I**ntuitive, **L**ibrary of **C**omponents for web developers. Unlike other "frameworks", silc is intentionally bare bones, focusing on functionality over uneccessary styles that you end up overriding later. Silc features purposeful and semantic HTML, minimal "vanilla" JavaScript, and SASS variables for easy customization.
 
- - [silc core](https://github.com/nickrigby/silc-core)
- - [silc grid](https://github.com/nickrigby/silc-grid)
- - [silc accordion](https://github.com/nickrigby/silc-accordion)
- - [silc nav](https://github.com/nickrigby/silc-nav)
- - [silc offcanvas](https://github.com/nickrigby/silc-offcanvas)
- - [silc utilities](https://github.com/nickrigby/silc-utilities)
+## Modules
+Silc contains a number of leightweight modules. Since silc modules are truly modular, any single silc module can be included in your own project using [npm](https://www.npmjs.com/).
 
-## Installation
-After downloading silc, dependencies need to be installed with [yarn](https://yarnpkg.com/lang/en/docs/install/) or [node](https://docs.npmjs.com/getting-started/installing-node).
+### Grid
+The grid module is a flexbox-based grid system, that allows you to create classes based on your own custom breakpoints.
 
-`npm install` or `yarn install`
+[grid documentation](https://github.com/nickrigby/silc-grid) | [grid npm package](https://www.npmjs.com/package/silc-grid)
 
-## Local dev server
-The local development server — using [Webpack 2](webpack.js.org) — can be started with:
+### Accordion
+The accordion module has options for pure accordions, accordions that become tabs, and pure tabs.
 
-`npm run serve` or `yarn serve`
+[accordion documentation](https://github.com/nickrigby/silc-grid) | [accordion npm package](https://www.npmjs.com/package/silc-accordion)
 
-## Overriding styles
-Each silc module contains a number of default SASS variables that can be easily overridden by adding the variable to the [silc/_overrides.scss file](src/scss/silc/_overrides.scss). For example, to add your own breakpoints, you would create the following variable in the overrides file:
+### Offcanvas
+The offcanvas module allows you to place content outside of the viewport, with the ability to trigger its visibility. The offcanvas module also has an option for basic modals.
 
-```scss
-$silc-core--breakpoints (
-    ('sm', '400px'),
-    ('md', '600px'),
-    ('lg', '1000px'),
-    ('xl', '1400px')
-);
-```
+[offcanvas documentation](https://github.com/nickrigby/silc-offcanvas) | [offcanvas npm package](https://www.npmjs.com/package/silc-offcanvas)
 
-## Extending classes
-Some silc modules contain JavaScript classes that can be easily extended for your own needs. To extend a class, you need to import the class and then remove the call to the original module init function e.g. `silcOffcanvasInit`
+### Nav
+The nav module allows you to create nested, multi-level navigations, which is collapsed by default — to work on smaller screens — with the ability to expand to a horizontal navigation on larger screens.
 
-```javascript
-import { SilcOffcanvas } from 'silc-offcanvas';
-class MyOffcanvas extends SilcOffcanvas {
+[nav documentation](https://github.com/nickrigby/silc-nav) | [nav npm package](https://www.npmjs.com/package/silc-nav)
 
-    constructor(el) {
-        super(el);
-    }
+### Utilities
+The utilities module contains a number of utilities for hiding/showing content and more.
 
-    protected toggle(event) {
-        super.toggle(event); // Call parent toggle function
-        console.log('Toggle!'); // Your own functionality
-    }
+[utilities documentation](https://github.com/nickrigby/silc-utilities) | [utilities npm package](https://www.npmjs.com/package/silc-utilities)
 
-}
-```
+### Core
+The core module contains a number of SASS variables/mixins/functions, and a JavaScript classes that are dependencies for other silc modules.
+[core documentation](https://github.com/nickrigby/silc-core) | [core npm package](https://www.npmjs.com/package/silc-core)
 
-You can then write your own init function to apply your new class to the appropriate elements.
-```javascript
-[].forEach.call(document.querySelectorAll('.silc-offcanvas__trigger'), (el) => {
-    new MyOffcanvas(el);
-});
-```
+## Architecture
+Silc uses [webpack 2](https://webpack.js.org/) to bundle and compile assets, [BEM](http://getbem.com/) for modular class definitions, [TypeScript](https://www.typescriptlang.org/) for modern "vanilla" JavaScript, and [SASS](http://sass-lang.com/) for extensible CSS.
 
-## Building for production
-To build your code for production, run the following:
-
-`npm run build:production` or `yarn build:production`
+## Installation and configuration
+View the [Github project](https://github.com/nickrigby/silc) for detailed instructions on installation and configuration. 
