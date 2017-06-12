@@ -12,12 +12,6 @@ After downloading silc, dependencies need to be installed with [yarn](https://ya
 
 `npm install` or `yarn install`
 
-### Creating a SASS entry file
-Copy the [index.scss.sample file](src/scss/index.scss.sample) found in `src/scss` to `src/scss/index.scss`. This file controls the silc modules you want to include, as well as any other style dependencies for your project.
-
-### Creating a JavaScript entry file
-Copy the [index.ts.sample file](src/js/index.ts.sample) found in `src/js` to `src/js/index.ts`. This file controls the silc modules you want to include, as well as any other JavaScript files/code dependencies for your project.
-
 ## Local dev server
 The local development server — using [Webpack 2](webpack.js.org) — can be started with:
 
@@ -38,4 +32,4 @@ $silc-core--breakpoints (
 ## Building for production
 To build your code for production, run the following:
 
-`npm run build` or `yarn build`
+`npm run build:production` or `yarn build:production`

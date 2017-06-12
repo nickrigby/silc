@@ -2811,25 +2811,25 @@ signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
-silc-accordion@^0.5.8:
-  version "0.5.8"
-  resolved "https://registry.yarnpkg.com/silc-accordion/-/silc-accordion-0.5.8.tgz#027943ad9cb483b7df04fc0e8c64483fea650fad"
+silc-accordion@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/silc-accordion/-/silc-accordion-0.6.0.tgz#52585d6ed3e6751beabebb7e63483a8d31c5658e"
 
-silc-core@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/silc-core/-/silc-core-0.4.0.tgz#5f86d0091d6dbf55ced12ef2417796882f5cf8f6"
+silc-core@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/silc-core/-/silc-core-0.5.0.tgz#14d3fe1119c86f2104878c93e7457bf3fbdbca83"
 
 silc-grid@^0.3.1:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/silc-grid/-/silc-grid-0.3.1.tgz#c8ced6344494f219311f15d2cbfce56d9eb3295f"
 
-silc-nav@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/silc-nav/-/silc-nav-0.3.0.tgz#35473944d0af3ac6e151da57fcca128146d9e2ca"
+silc-nav@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/silc-nav/-/silc-nav-0.4.0.tgz#3b61b34c800b8aa3ded0bae60b1a64838dfcf089"
 
-silc-offcanvas@^0.3.2:
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/silc-offcanvas/-/silc-offcanvas-0.3.2.tgz#1564b1fce52a379f39287598fd8ea197a5fb06bd"
+silc-offcanvas@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/silc-offcanvas/-/silc-offcanvas-0.4.0.tgz#b6c39a18819011d638d492705899973a5aba4b33"
 
 silc-utilities@^0.1.1:
   version "0.1.1"

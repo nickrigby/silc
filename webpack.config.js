@@ -11,6 +11,9 @@ const config = {
         filename: "bundle.js",
         path: path.resolve(__dirname, 'build')
     },
+    resolve: {
+        extensions: ['.js', '.json', '.ts']
+    },
     module: {
         rules: [
             {
