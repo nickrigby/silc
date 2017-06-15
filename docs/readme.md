@@ -6,7 +6,7 @@ Silc contains a number of leightweight modules. Since silc modules are truly mod
 ### Grid
 The grid module is a flexbox-based grid system, that allows you to create classes based on your own custom breakpoints.
 
-[Grid documentation](https://github.com/nickrigby/silc-grid) | [Grid NPM package](https://www.npmjs.com/package/silc-grid)
+[Grid Demo](https://rawgit.com/nickrigby/silc-grid/master/index.html) | [Grid docs](https://github.com/nickrigby/silc-grid) | [Grid NPM package](https://www.npmjs.com/package/silc-grid)
 
 ### Accordion
 The accordion module has options for pure accordions, accordions that become tabs, and pure tabs.
