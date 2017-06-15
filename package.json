@@ -14,7 +14,7 @@
     "email": "nick.rigby@gmail.com",
     "url": "https://nickrigby.uk"
   },
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^7.1.1",
     "css-loader": "^0.28.0",
