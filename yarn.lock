@@ -2827,9 +2827,9 @@ silc-nav@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/silc-nav/-/silc-nav-0.4.0.tgz#3b61b34c800b8aa3ded0bae60b1a64838dfcf089"
 
-silc-offcanvas@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/silc-offcanvas/-/silc-offcanvas-0.4.0.tgz#b6c39a18819011d638d492705899973a5aba4b33"
+silc-offcanvas@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/silc-offcanvas/-/silc-offcanvas-0.5.0.tgz#49ed3e5b33710b0c0d22e9527f609bdcbfebf186"
 
 silc-utilities@^0.1.1:
   version "0.1.1"
