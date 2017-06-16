@@ -2819,9 +2819,9 @@ silc-core@^0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/silc-core/-/silc-core-0.5.0.tgz#14d3fe1119c86f2104878c93e7457bf3fbdbca83"
 
-silc-grid@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/silc-grid/-/silc-grid-0.3.1.tgz#c8ced6344494f219311f15d2cbfce56d9eb3295f"
+silc-grid@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/silc-grid/-/silc-grid-0.4.1.tgz#4b8c110f80f197fc1ab1fcdf7bc1937b28ddbb57"
 
 silc-nav@^0.4.0:
   version "0.4.0"
