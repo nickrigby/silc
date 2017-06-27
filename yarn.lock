@@ -2815,9 +2815,9 @@ silc-accordion@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/silc-accordion/-/silc-accordion-0.6.0.tgz#52585d6ed3e6751beabebb7e63483a8d31c5658e"
 
-silc-core@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/silc-core/-/silc-core-0.5.0.tgz#14d3fe1119c86f2104878c93e7457bf3fbdbca83"
+silc-core@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/silc-core/-/silc-core-0.6.0.tgz#2a6ae248af07c8502130706f54e58872a03eb7c0"
 
 silc-grid@^0.4.1:
   version "0.4.1"
@@ -2827,13 +2827,13 @@ silc-nav@^0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/silc-nav/-/silc-nav-0.5.0.tgz#85b9f15edf9b5d8b9074841bdaf5b1a51e800923"
 
-silc-offcanvas@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/silc-offcanvas/-/silc-offcanvas-0.5.0.tgz#49ed3e5b33710b0c0d22e9527f609bdcbfebf186"
+silc-offcanvas@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/silc-offcanvas/-/silc-offcanvas-0.6.0.tgz#2df6612238a9c3e6643cd91955d38ed189afb5f9"
 
-silc-utilities@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/silc-utilities/-/silc-utilities-0.1.1.tgz#83980560f393a3f2443248c3246fcd78d3401758"
+silc-utilities@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/silc-utilities/-/silc-utilities-0.2.0.tgz#bd661accca7ee58c154591352b5b28565b683226"
 
 sntp@1.x.x:
   version "1.0.9"
