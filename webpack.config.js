@@ -29,7 +29,7 @@ const config = {
                 })
             },
             {
-                test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+                test: /\.(jpg|gif|png|woff|woff2|eot|ttf|svg)$/,
                 loader: 'url-loader',
                 options: {
                     limit: 1000
