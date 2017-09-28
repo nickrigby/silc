@@ -40,5 +40,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/nickrigby/silc"
+  },
+  "dependencies": {
+    "@frctl/fractal": "^1.1.7"
   }
 }
