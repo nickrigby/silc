@@ -7,7 +7,8 @@
     "serve": "NODE_ENV=development webpack-dev-server --open",
     "watch": "webpack --watch",
     "build:staging": "NODE_ENV=staging webpack -p",
-    "build:production": "NODE_ENV=production webpack -p"
+    "build:production": "NODE_ENV=production webpack -p",
+    "fractal": "concurrently --kill-others-on-fail \"npm run watch\" \"fractal start --sync\""
   },
   "author": {
     "name": "Nick Rigby",
