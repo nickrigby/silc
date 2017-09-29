@@ -14,7 +14,7 @@ The accordion module has options for pure accordions, accordions that become tab
 [Accordion demo](https://cdn.rawgit.com/nickrigby/silc-accordion/9db8b6bcc3fc32660e026ac842ead0ae3644df97/index.html) | [Accordion docs](https://github.com/nickrigby/silc-accordion) | [Accordion npm package](https://www.npmjs.com/package/silc-accordion)
 
 ### Offcanvas
-The offcanvas module allows you to place content outside of the viewport, with the ability to trigger its visibility. The offcanvas module also has an option for basic modals.
+The offcanvas module allows you to place content outside of the viewport, with the ability to trigger its visibility.
 
 [Offcanvas demo](https://cdn.rawgit.com/nickrigby/silc-offcanvas/b5341a90e5e89fbcc6c78c5a2f72f01b6d578231/index.html) | [Offcanvas docs](https://github.com/nickrigby/silc-offcanvas) | [Offcanvas npm package](https://www.npmjs.com/package/silc-offcanvas)
 
