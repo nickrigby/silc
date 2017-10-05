@@ -1,18 +1,31 @@
 const path = require('path');
 const webpack = require('webpack');
-const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackHarddiskPlugin = require('html-webpack-harddisk-plugin');
+
 const extractSass = new ExtractTextPlugin({
-    filename: "index.css"
+    filename: "css/index.css"
 });
+
+const extractHtmlDefaults = {
+    files: [
+        {
+            template: 'src/templates/index.hbs',
+            filename: 'templates/index.html'
+        }
+    ],
+    alwaysWriteToDisk: false
+}
 
 const config = {
     entry: "./src/js/index.ts",
     output: {
-        filename: "bundle.js",
+        filename: "js/index.js",
         path: path.resolve(__dirname, 'build')
     },
     resolve: {
-        extensions: ['.js', '.json', '.ts']
+        extensions: ['.js', '.json', '.ts', '.hbs']
     },
     module: {
         rules: [
@@ -32,8 +45,17 @@ const config = {
                 test: /\.(jpg|gif|png|woff|woff2|eot|ttf|svg)$/,
                 loader: 'url-loader',
                 options: {
-                    limit: 1000
+                    limit: 1000,
+                    name: 'img/[hash].[ext]',
                 }
+            },
+            {
+                test: /\.hbs$/,
+                loader: 'handlebars-loader'
+            },
+            {
+                test: /\.html$/,
+                loader: 'html-loader'
             }
         ]
     },
@@ -46,13 +68,29 @@ if(process.env.NODE_ENV === 'development') {
 
     config.devServer = {
         hot: true,
-        publicPath: '/build/'
+        publicPath: '/',
+        contentBase: './build/templates'
     };
 
     config.plugins.push(
         new webpack.HotModuleReplacementPlugin()
     );
 
+    config.plugins.push(
+        new HtmlWebpackHarddiskPlugin()
+    );
+
+    extractHtmlDefaults.alwaysWriteToDisk = true;
 }
+
+[].forEach.call(extractHtmlDefaults.files, file => {
+    config.plugins.push(
+        new HtmlWebpackPlugin({
+            template: file.template,
+            filename: file.filename,
+            alwaysWriteToDisk: extractHtmlDefaults.alwaysWriteToDisk
+        })
+    );
+});
 
 module.exports = config;
