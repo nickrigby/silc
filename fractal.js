@@ -16,4 +16,4 @@ fractal.docs.set('path', __dirname + '/src/docs');
 fractal.web.set('static.path', __dirname + '/build');
 
 /* Tell Fractal where the static HTML web UI export lives */
-fractal.web.set('builder.dest', __dirname + '/build/component-library');
+fractal.web.set('builder.dest', __dirname + '/fractal');
