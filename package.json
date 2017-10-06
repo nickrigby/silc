@@ -8,7 +8,8 @@
     "watch": "webpack --watch",
     "build:staging": "NODE_ENV=staging webpack -p",
     "build:production": "NODE_ENV=production webpack -p",
-    "fractal": "concurrently --kill-others-on-fail \"npm run watch\" \"fractal start --sync\""
+    "fractal": "concurrently --kill-others-on-fail \"npm run watch\" \"fractal start --sync\"",
+    "fractal:build": "fractal build"
   },
   "author": {
     "name": "Nick Rigby",
