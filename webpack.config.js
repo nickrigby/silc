@@ -38,7 +38,7 @@ const config = {
                 }
             },
             {
-                test: /\.hbs$/,
+                test: /\.(hbs|handlebars)$/,
                 loader: 'handlebars-loader'
             },
             {
