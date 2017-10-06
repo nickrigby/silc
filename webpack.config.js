@@ -1,8 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const HtmlWebpackHarddiskPlugin = require('html-webpack-harddisk-plugin');
 
 const extractSass = new ExtractTextPlugin({
     filename: "css/index.css"
@@ -75,22 +73,6 @@ if(process.env.NODE_ENV === 'development') {
     config.plugins.push(
         new webpack.HotModuleReplacementPlugin()
     );
-
-    config.plugins.push(
-        new HtmlWebpackHarddiskPlugin()
-    );
-
-    extractHtmlDefaults.alwaysWriteToDisk = true;
 }
-
-[].forEach.call(extractHtmlDefaults.files, file => {
-    config.plugins.push(
-        new HtmlWebpackPlugin({
-            template: file.template,
-            filename: file.filename,
-            alwaysWriteToDisk: extractHtmlDefaults.alwaysWriteToDisk
-        })
-    );
-});
 
 module.exports = config;
