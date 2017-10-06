@@ -1,13 +1,13 @@
-<div class="silc-accordion silc-accordion--tabs" id="accordion-4">
+<div class="silc-accordion silc-accordion--{{modifier}}">
     <nav class="silc-accordion__nav">
         <ul class="silc-accordion__nav-items">
             {{#each sections}}
-            <li class="silc-accordion__nav-item"><a class="silc-accordion__nav-link" href="#silc-accordion-4-{{@index}}">{{title}}</a></li>
+            <li class="silc-accordion__nav-item"><a class="silc-accordion__nav-link" href="#{{../id}}-{{@index}}">{{title}}</a></li>
             {{/each}}
         </ul>
     </nav>
     {{#each sections}}
-    <section class="silc-accordion__section" id="silc-accordion-4-{{@index}}">
+    <section class="silc-accordion__section" id="{{../id}}-{{@index}}">
         <header class="silc-accordion__header">
             <h2 class="silc-accordion__label">{{title}}</h2>
         </header>
