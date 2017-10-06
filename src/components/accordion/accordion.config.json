@@ -1,0 +1,11 @@
+{
+    "context": {
+        "sections": [{
+            "title": "Accordion 1",
+            "content": "<p>This is the content area of accordion 1</p>"
+        }, {
+            "title": "Accordion 2",
+            "content": "<p>This is the content area of accordion 2</p>"
+        }]
+    }
+}
