@@ -6,16 +6,6 @@ const extractSass = new ExtractTextPlugin({
     filename: "css/index.css"
 });
 
-const extractHtmlDefaults = {
-    files: [
-        {
-            template: 'src/templates/index.hbs',
-            filename: 'templates/index.html'
-        }
-    ],
-    alwaysWriteToDisk: false
-}
-
 const config = {
     entry: "./src/js/index.ts",
     output: {
