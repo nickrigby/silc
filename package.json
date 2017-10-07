@@ -1,6 +1,6 @@
 {
   "name": "silc",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Simple, Intutive, Library of Components for Web Developers",
   "main": "index.js",
   "scripts": {
