@@ -6,10 +6,9 @@
   "scripts": {
     "serve": "NODE_ENV=development webpack-dev-server --open",
     "watch": "webpack --watch",
-    "build:staging": "NODE_ENV=staging webpack -p",
-    "build:production": "NODE_ENV=production webpack -p",
-    "fractal": "concurrently --kill-others-on-fail \"npm run watch\" \"fractal start --sync\"",
-    "fractal:build": "fractal build"
+    "build:staging": "NODE_ENV=staging concurrently --kill-others-on-fail \"webpack -p\" \"fractal build\"",
+    "build:production": "NODE_ENV=production concurrently --kill-others-on-fail \"webpack -p\" \"fractal build\"",
+    "fractal": "concurrently --kill-others-on-fail \"npm run watch\" \"fractal start --sync\""
   },
   "author": {
     "name": "Nick Rigby",
@@ -20,6 +19,7 @@
   "devDependencies": {
     "autoprefixer": "^7.1.1",
     "concurrently": "^3.5.0",
+    "copy-webpack-plugin": "^4.1.1",
     "css-loader": "^0.28.0",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.11.1",

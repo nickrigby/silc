@@ -1,10 +1,18 @@
 const path = require('path');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const extractSass = new ExtractTextPlugin({
     filename: "css/index.css"
 });
+
+const copyImages = new CopyWebpackPlugin([
+    {
+        from: 'src/img',
+        to: 'img'
+    }
+]);
 
 const config = {
     entry: "./src/js/index.ts",
@@ -30,12 +38,26 @@ const config = {
                 })
             },
             {
-                test: /\.(jpg|gif|png|woff|woff2|eot|ttf|svg)$/,
+                test: /\.(woff|woff2|eot|ttf|svg)$/,
                 loader: 'url-loader',
                 options: {
                     limit: 1000,
-                    name: 'img/[hash].[ext]',
-                }
+                    name: '[name].[ext]',
+                    outputPath: 'fonts/',
+                    publicPath: '../'
+                },
+                exclude: [path.resolve(__dirname, 'img')]
+            },
+            {
+                test: /\.(jpg|jpeg|gif|png|svg)$/,
+                loader: 'url-loader',
+                options: {
+                    limit: 1000,
+                    name: '[name].[ext]',
+                    outputPath: 'img/',
+                    publicPath: '../'
+                },
+                exclude: [path.resolve(__dirname, 'fonts')]
             },
             {
                 test: /\.(hbs|handlebars)$/,
@@ -48,7 +70,8 @@ const config = {
         ]
     },
     plugins: [
-        extractSass
+        extractSass,
+        copyImages
     ]
 };
 
@@ -57,7 +80,7 @@ if(process.env.NODE_ENV === 'development') {
     config.devServer = {
         hot: true,
         publicPath: '/',
-        contentBase: './build/templates'
+        contentBase: './fractal'
     };
 
     config.plugins.push(
