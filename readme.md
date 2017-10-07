@@ -15,7 +15,7 @@ After downloading silc, dependencies need to be installed with [yarn](https://ya
 `npm install` or `yarn install`
 
 ## Development
-Silc includes [Fractal](fractal.build) for component based development. Your own components can be added to the `src/components` folder. Static assets such as JavaScript, CSS and images will be served out of the `build` folder, but can also be configured to your specific needs by editing the `fractal.js` file. For more information, read the [fractal guide](fractal.build/guide).
+Silc includes [Fractal](http://fractal.build) for component based development. Your own components can be added to the `src/components` folder. Static assets such as JavaScript, CSS and images will be served out of the `build` folder, but can also be configured to your specific needs by editing the [fractal.js file](fractal.js). For more information, read the [fractal guide](http://fractal.build/guide).
 
 To start the fractal development server:
 
@@ -40,7 +40,7 @@ To build your code for production, run the following:
 
 `npm run build:production` or `yarn build:production`
 
-This will generate `build` and `fractal` folders at the root of your project. The `build` folder contains all of your compiled assets (CSS, JavaScript etc.), while the `fractal` folder contains a static generated version of your Fractal component library, which can be used for previews and an online reference to your component library. See the [clearleft fractal library](fractal.clearleft.com) as an example.
+This will generate `build` and `fractal` folders at the root of your project. The `build` folder contains all of your compiled assets (CSS, JavaScript etc.), while the `fractal` folder contains a static generated version of your Fractal component library, which can be used for previews and an online reference to your component library. See the [Clearleft Fractal Library](http://fractal.clearleft.com) as an example.
 
 ## Overriding styles
 Each silc module contains a number of default SASS variables that can be easily overridden by adding the variable to the [silc/_overrides.scss file](src/scss/silc/_overrides.scss). For example, to add your own breakpoints, you would create the following variable in the overrides file:
