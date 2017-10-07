@@ -23,7 +23,9 @@ To start the fractal development server:
 
 Referencing images from within your component handlebars templates:
 
-`<img src="{{path '/img/image.png'}}" alt="">`
+```html
+<img src="{{path '/img/image.png'}}" alt="">
+```
 
 ### Watch mode
 If you do not wish to use Fractal, or simply want to watch for changes without launching a development server, you can run the watch command:
