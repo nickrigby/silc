@@ -1,13 +1,14 @@
 {
   "name": "silc",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Simple, Intutive, Library of Components for Web Developers",
   "main": "index.js",
   "scripts": {
     "serve": "NODE_ENV=development webpack-dev-server --open",
     "watch": "webpack --watch",
-    "build:staging": "NODE_ENV=staging webpack -p",
-    "build:production": "NODE_ENV=production webpack -p"
+    "build:staging": "NODE_ENV=staging concurrently --kill-others-on-fail \"webpack -p\" \"fractal build\"",
+    "build:production": "NODE_ENV=production concurrently --kill-others-on-fail \"webpack -p\" \"fractal build\"",
+    "fractal": "concurrently --kill-others-on-fail \"npm run watch\" \"fractal start --sync\""
   },
   "author": {
     "name": "Nick Rigby",
@@ -17,9 +18,13 @@
   "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^7.1.1",
+    "concurrently": "^3.5.0",
+    "copy-webpack-plugin": "^4.1.1",
     "css-loader": "^0.28.0",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.11.1",
+    "handlebars-loader": "^1.6.0",
+    "html-loader": "^0.5.1",
     "node-sass": "^4.5.2",
     "normalize.css": "^6.0.0",
     "postcss-loader": "^2.0.5",
@@ -40,5 +45,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/nickrigby/silc"
+  },
+  "dependencies": {
+    "@frctl/fractal": "^1.1.7"
   }
 }
