@@ -79,8 +79,7 @@ if(process.env.NODE_ENV === 'development') {
 
     config.devServer = {
         hot: true,
-        publicPath: '/',
-        contentBase: './fractal'
+        publicPath: '/build/'
     };
 
     config.plugins.push(
