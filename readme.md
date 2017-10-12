@@ -48,11 +48,11 @@ This will generate `build` and `fractal` folders at the root of your project. Th
 Each silc module contains a number of default SASS variables that can be easily overridden by adding the variable to the [silc/_overrides.scss file](src/scss/silc/_overrides.scss). For example, to add your own breakpoints, you would create the following variable in the overrides file:
 
 ```scss
-$silc-core--breakpoints (
-    ('sm', '400px'),
-    ('md', '600px'),
-    ('lg', '1000px'),
-    ('xl', '1400px')
+$silc-core--breakpoints: (
+    ('sm', '(min-width:400px)'),
+    ('md', '(min-width:600px)'),
+    ('lg', '(min-width:1000px)'),
+    ('xl', '(min-width:1400px)')
 );
 ```
 
