@@ -46,7 +46,7 @@ const config = {
                     outputPath: 'fonts/',
                     publicPath: '../'
                 },
-                exclude: [path.resolve(__dirname, 'img')]
+                exclude: [path.resolve(__dirname, 'src/img')]
             },
             {
                 test: /\.(jpg|jpeg|gif|png|svg)$/,
@@ -57,7 +57,7 @@ const config = {
                     outputPath: 'img/',
                     publicPath: '../'
                 },
-                exclude: [path.resolve(__dirname, 'fonts')]
+                exclude: [path.resolve(__dirname, 'src/fonts')]
             },
             {
                 test: /\.(hbs|handlebars)$/,
