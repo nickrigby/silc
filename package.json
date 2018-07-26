@@ -1,6 +1,6 @@
 {
   "name": "silc",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Simple, Intutive, Library of Components for Web Developers",
   "main": "index.js",
   "scripts": {
@@ -34,7 +34,7 @@
     "normalize-scss": "^7.0.1",
     "postcss-loader": "^2.0.5",
     "sass-loader": "^6.0.3",
-    "silc-accordion": "^0.9.1",
+    "silc-accordion": "^0.9.2",
     "silc-core": "^0.6.0",
     "silc-grid": "^0.6.0",
     "silc-nav": "^0.6.0",
